@@ -1,12 +1,9 @@
-"A bunch of domain general functions and macros that I find useful in many different projects"
+__precompile__()
+"Domain general, dependency free functions and macros"
 module ZenUtils
+using Spec
 
-import Base: string, print, println, show, showcompact
-
-export printers,
-       unimplemented,
-       fields
-
-
+include("grab.jl")
+include("array.jl")
 include("misc.jl")
 end
