@@ -44,3 +44,5 @@ macro grab(assignexpr::Expr)
     setinmod!($(Meta.quot(grabname)), $(esc(var)))
   end
 end
+
+export @grab
