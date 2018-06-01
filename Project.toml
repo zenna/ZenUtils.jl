@@ -1,0 +1,7 @@
+authors = ["Zenna Tavares <zennatavares@gmail.com>"]
+name = "ZenUtils"
+uuid = "8c7a6496-654a-11e8-0e4c-c7dc3dc823b6"
+version = "0.1.0"
+
+[deps]
+Spec = "a66f38ac-654a-11e8-084e-17fcc11990b8"
