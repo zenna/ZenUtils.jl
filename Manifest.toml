@@ -1,0 +1,6 @@
+[[Spec]]
+git-tree-sha1 = "c28f4f72b9371d0c842167670cad7b8fb4c0e71b"
+repo-rev = "master"
+repo-url = "https://github.com/zenna/Spec.jl.git"
+uuid = "526a04b8-654b-11e8-1588-db2a414f95b5"
+version = "0.1.0"
