@@ -1,5 +1,5 @@
 "mod.s = val"
-setinmod!(s::Symbol, val, mod=Main) = eval(mod, :($s = $val))
+setinmod!(s::Symbol, val, mod=Main) = Base.eval(mod, :($s = $val))
 
 "Global capture into Main
 
